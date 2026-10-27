@@ -1,0 +1,14 @@
+package helloworld.control;
+
+public class BonusPayment3 {
+    public static void main(String[] args) {
+
+        int itemsSold = 4, totalValue = 500;
+
+        if (itemsSold > 3 || totalValue > 1000) {
+            System.out.println("Bonus: Php100");
+        } else {
+            System.out.println("No Bonus");
+        }
+    }
+}
